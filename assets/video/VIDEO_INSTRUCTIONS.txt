@@ -1,0 +1,105 @@
+INSTRUÇÕES PARA O VÍDEO DE BACKGROUND
+======================================
+
+IMPORTANTE: Adicione seu vídeo nesta pasta!
+
+Nome do arquivo esperado:
+-------------------------
+video_background.mp4
+
+Especificações Recomendadas:
+-----------------------------
+- Formato: MP4 (H.264)
+- Resolução: 1920x1080 (Full HD) ou superior
+- Duração: 10-30 segundos (loop automático)
+- Tamanho: Máximo 10MB (para carregamento rápido)
+- Orientação: Landscape (horizontal)
+- Frame rate: 30fps
+- Sem áudio (o vídeo será mutado automaticamente)
+
+Dicas para Melhor Resultado:
+-----------------------------
+1. Use vídeos com movimento suave (não muito agitado)
+2. Evite vídeos com texto importante (pode ficar ilegível)
+3. Prefira cores que combinem com o tema teal/coral
+4. Vídeos com pessoas estudando, trabalhando em computadores, ou em sala de aula funcionam bem
+5. Certifique-se que o vídeo não distraia do texto principal
+
+Otimização:
+-----------
+Para reduzir o tamanho do arquivo, você pode usar ferramentas como:
+- HandBrake (https://handbrake.fr/)
+- FFmpeg
+- Compressor online: https://www.freeconvert.com/video-compressor
+
+Comando FFmpeg para otimizar:
+ffmpeg -i input.mp4 -vcodec h264 -crf 28 -preset fast -vf scale=1920:1080 video_background.mp4
+
+Comportamento:
+--------------
+✅ Desktop: Vídeo visível com overlay teal semi-transparente (85% opacidade)
+✅ Mobile: Vídeo oculto, apenas cor de fundo (melhor performance)
+✅ Autoplay: Sim (sem som)
+✅ Loop: Sim (repete infinitamente)
+✅ Controles: Não (vídeo decorativo)
+
+Fallback:
+---------
+Se o vídeo não carregar ou não existir, o site mostrará:
+- Gradiente teal de fundo (cor padrão)
+- Todo o texto permanece legível
+
+Acessibilidade:
+---------------
+O vídeo é puramente decorativo e não afeta:
+- Leitores de tela
+- Navegação por teclado
+- Contraste do texto (overlay garante legibilidade)
+
+Onde o vídeo aparece:
+---------------------
+Apenas na seção HERO da página inicial (index.html)
+- Atrás do título "Skills for today, opportunities for tomorrow"
+- Atrás do subtítulo e botões de CTA
+
+Teste:
+------
+Após adicionar o vídeo:
+1. Abra http://localhost:8000
+2. Verifique se o vídeo carrega
+3. Confirme que o texto está legível
+4. Teste em mobile (F12 > Device toolbar)
+5. Verifique a velocidade de carregamento
+
+Problemas Comuns:
+-----------------
+❌ Vídeo não aparece:
+   - Verifique o nome do arquivo (deve ser exatamente: video_background.mp4)
+   - Confirme que está na pasta assets/video/
+   - Limpe o cache do navegador (Ctrl+Shift+R)
+
+❌ Vídeo muito pesado:
+   - Comprima usando as ferramentas sugeridas
+   - Reduza a duração para 10-15 segundos
+   - Reduza a resolução para 1280x720
+
+❌ Texto ilegível:
+   - O overlay teal já está configurado para garantir legibilidade
+   - Se necessário, ajuste a opacidade em assets/css/main.css (linha ~291)
+
+Recursos Gratuitos de Vídeo:
+-----------------------------
+- Pexels: https://www.pexels.com/videos/
+- Pixabay: https://pixabay.com/videos/
+- Coverr: https://coverr.co/
+- Videvo: https://www.videvo.net/
+
+Palavras-chave para busca:
+- "education classroom"
+- "students learning"
+- "people working computer"
+- "digital skills training"
+- "online learning"
+
+---
+Última atualização: Dezembro 2024
