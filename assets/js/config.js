@@ -6,7 +6,7 @@
 const SITE_CONFIG = {
   // Informações de Contato
   contact: {
-    whatsapp: '447123456789', // Formato: código do país + número (sem espaços, sem +)
+    whatsapp: '5511986466069', // Formato: código do país + número (sem espaços, sem +)
     whatsappMessage: "Hello, I'd like to know more about the courses.",
     email: 'info@learningforchange.org',
     phone: '+44 (0) 20 XXXX XXXX',
