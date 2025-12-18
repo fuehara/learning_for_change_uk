@@ -1,0 +1,39 @@
+LOGO INSTRUCTIONS FOR LEARNING FOR CHANGE
+==========================================
+
+A placeholder logo (logo.svg) has been created for development purposes.
+
+IMPORTANT: Replace with your actual logo
+-----------------------------------------
+
+1. Your actual logo should be placed in this directory as:
+   - logo.png (recommended for best compatibility)
+   - OR logo.svg (if you prefer vector format)
+
+2. Recommended specifications:
+   - Format: PNG with transparent background
+   - Dimensions: 200px width x 60px height (or similar aspect ratio)
+   - File size: Under 100KB for optimal loading
+   - Resolution: @2x for retina displays (400x120px saved as 200x60px)
+
+3. If using a different filename:
+   - Update all references in HTML files
+   - Search for "logo.png" and replace with your filename
+   - Files to update: All .html files in the root directory
+
+4. The logo appears in:
+   - Header (all pages) - 50px height
+   - Footer (all pages) - 40px height
+   - Favicon (browser tab icon)
+   - Login/Register pages
+
+5. For favicon:
+   - Create a favicon.ico file (16x16, 32x32, 48x48)
+   - Or use a PNG (recommended: 192x192px)
+   - Place in the root directory or /assets/images/
+
+Current placeholder logo features:
+- Teal background with coral accent
+- Checkmark symbol representing achievement
+- "Learning for Change" text
+- This is temporary and should be replaced with your official branding

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Complete your course enrollment with secure payment processing.">
+  <title>Checkout - Learning for Change</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="icon" type="image/png" href="assets/images/logo.jpeg">
+</head>
+<body>
+  <header class="header">
+    <div class="header__container">
+      <a href="index.html" class="header__logo">
+        <img src="assets/images/logo.jpeg" alt="Learning for Change Logo" class="header__logo-img">
+      </a>
+      
+      <nav class="header__nav" aria-label="Main navigation">
+        <ul class="header__nav-list">
+          <li><a href="index.html" class="header__nav-link">Home</a></li>
+          <li><a href="about.html" class="header__nav-link">About</a></li>
+          <li><a href="courses.html" class="header__nav-link">Courses</a></li>
+          <li><a href="partnerships.html" class="header__nav-link">Partnerships</a></li>
+          <li><a href="impact.html" class="header__nav-link">Impact</a></li>
+          <li><a href="get-involved.html" class="header__nav-link">Get Involved</a></li>
+          <li><a href="contact.html" class="header__nav-link">Contact</a></li>
+        </ul>
+        
+        <div class="header__actions">
+          <a href="login.html" class="btn btn--outline-teal btn--small">Login</a>
+          <a href="courses.html" class="btn btn--primary btn--small">Start Learning</a>
+        </div>
+      </nav>
+      
+      <button class="header__mobile-toggle" aria-label="Toggle mobile menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section--light" style="min-height: 70vh; padding: 3rem 0;">
+      <div class="container">
+        <div style="max-width: 1000px; margin: 0 auto;">
+          <div class="text-center mb-4">
+            <h1 style="font-size: 2.5rem; margin-bottom: 0.5rem;">Secure Checkout</h1>
+            <p style="color: var(--secondary-dark); opacity: 0.8; font-size: 1.125rem;">Complete your course enrollment</p>
+          </div>
+          
+          <div style="background-color: var(--primary-coral-light); padding: 2rem; border-radius: var(--border-radius-lg); margin-bottom: 2rem; text-align: center;">
+            <h2 style="color: white; font-size: 1.5rem; margin-bottom: 1rem;">🚧 Payment System in Development</h2>
+            <p style="color: white; font-size: 1.125rem; margin-bottom: 1.5rem;">
+              We're implementing a secure payment gateway for seamless course enrollment
+            </p>
+            <p style="color: white; margin: 0;">
+              Our checkout system will support multiple payment methods and ensure your data is protected
+            </p>
+          </div>
+          
+          <div class="grid grid--2" style="gap: 2rem;">
+            <div>
+              <div class="card" style="opacity: 0.6;">
+                <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem;">Billing Information</h3>
+                
+                <form class="form" style="pointer-events: none;">
+                  <div class="grid grid--2" style="gap: 1rem;">
+                    <div class="form__group">
+                      <label for="firstName" class="form__label">First Name</label>
+                      <input type="text" id="firstName" class="form__input" disabled>
+                    </div>
+                    
+                    <div class="form__group">
+                      <label for="lastName" class="form__label">Last Name</label>
+                      <input type="text" id="lastName" class="form__input" disabled>
+                    </div>
+                  </div>
+                  
+                  <div class="form__group">
+                    <label for="email" class="form__label">Email Address</label>
+                    <input type="email" id="email" class="form__input" disabled>
+                  </div>
+                  
+                  <div class="form__group">
+                    <label for="address" class="form__label">Address</label>
+                    <input type="text" id="address" class="form__input" disabled>
+                  </div>
+                  
+                  <div class="grid grid--2" style="gap: 1rem;">
+                    <div class="form__group">
+                      <label for="city" class="form__label">City</label>
+                      <input type="text" id="city" class="form__input" disabled>
+                    </div>
+                    
+                    <div class="form__group">
+                      <label for="postcode" class="form__label">Postcode</label>
+                      <input type="text" id="postcode" class="form__input" disabled>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              
+              <div class="card mt-3" style="opacity: 0.6;">
+                <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem;">Payment Method</h3>
+                
+                <div style="display: flex; gap: 1rem; margin-bottom: 1.5rem;">
+                  <div style="padding: 1rem; border: 2px solid #e0e0e0; border-radius: var(--border-radius); flex: 1; text-align: center;">
+                    💳 Card
+                  </div>
+                  <div style="padding: 1rem; border: 2px solid #e0e0e0; border-radius: var(--border-radius); flex: 1; text-align: center;">
+                    🏦 Bank
+                  </div>
+                  <div style="padding: 1rem; border: 2px solid #e0e0e0; border-radius: var(--border-radius); flex: 1; text-align: center;">
+                    📱 Digital
+                  </div>
+                </div>
+                
+                <form class="form" style="pointer-events: none;">
+                  <div class="form__group">
+                    <label for="cardNumber" class="form__label">Card Number</label>
+                    <input type="text" id="cardNumber" class="form__input" placeholder="1234 5678 9012 3456" disabled>
+                  </div>
+                  
+                  <div class="grid grid--2" style="gap: 1rem;">
+                    <div class="form__group">
+                      <label for="expiry" class="form__label">Expiry Date</label>
+                      <input type="text" id="expiry" class="form__input" placeholder="MM/YY" disabled>
+                    </div>
+                    
+                    <div class="form__group">
+                      <label for="cvv" class="form__label">CVV</label>
+                      <input type="text" id="cvv" class="form__input" placeholder="123" disabled>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            
+            <div>
+              <div class="card">
+                <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem;">Order Summary</h3>
+                
+                <div style="background-color: var(--bg-light); padding: 1.5rem; border-radius: var(--border-radius); margin-bottom: 1.5rem;">
+                  <h4 style="font-size: 1.125rem; margin-bottom: 1rem;">Sample Course</h4>
+                  <p style="color: var(--secondary-dark); opacity: 0.8; margin-bottom: 1rem;">
+                    This is a placeholder for course details that will appear when the payment system is active.
+                  </p>
+                  <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                    <span>Course Fee:</span>
+                    <span style="font-weight: 600;">£XXX.00</span>
+                  </div>
+                </div>
+                
+                <div style="border-top: 2px solid #e0e0e0; padding-top: 1rem; margin-bottom: 1.5rem;">
+                  <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                    <span>Subtotal:</span>
+                    <span>£XXX.00</span>
+                  </div>
+                  <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                    <span>Discount:</span>
+                    <span style="color: var(--primary-teal);">-£0.00</span>
+                  </div>
+                  <div style="display: flex; justify-content: space-between; font-size: 1.25rem; font-weight: 700; margin-top: 1rem;">
+                    <span>Total:</span>
+                    <span style="color: var(--primary-coral);">£XXX.00</span>
+                  </div>
+                </div>
+                
+                <button class="btn btn--primary" style="width: 100%; opacity: 0.5; pointer-events: none;" disabled>
+                  🔒 Complete Payment
+                </button>
+                
+                <div style="margin-top: 1.5rem; padding: 1rem; background-color: var(--bg-light); border-radius: var(--border-radius);">
+                  <p style="font-size: 0.875rem; text-align: center; color: var(--secondary-dark);">
+                    🔐 Secure payment processing with industry-standard encryption
+                  </p>
+                </div>
+              </div>
+              
+              <div class="card mt-3">
+                <h3 style="font-size: 1.25rem; margin-bottom: 1rem;">Future Payment Features</h3>
+                <ul style="margin-left: 1.5rem; color: var(--secondary-dark);">
+                  <li>✓ Multiple payment methods (Card, Bank Transfer, PayPal)</li>
+                  <li>✓ Secure SSL encryption</li>
+                  <li>✓ Payment plans and installments</li>
+                  <li>✓ Discount codes and vouchers</li>
+                  <li>✓ Instant enrollment confirmation</li>
+                  <li>✓ Digital receipts and invoices</li>
+                  <li>✓ Refund processing</li>
+                  <li>✓ Multi-currency support</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div style="text-align: center; margin-top: 3rem;">
+            <div class="card" style="max-width: 600px; margin: 0 auto;">
+              <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">Ready to Enroll?</h3>
+              <p style="margin-bottom: 1.5rem; color: var(--secondary-dark);">
+                While our online payment system is being developed, you can still enroll in courses by contacting us directly.
+              </p>
+              <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="contact.html" class="btn btn--primary">Contact Us to Enroll</a>
+                <a href="courses.html" class="btn btn--outline-teal">Browse Courses</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <img src="assets/images/logo.jpeg" alt="Learning for Change" class="footer__logo">
+          <p>Skills for today, opportunities for tomorrow.</p>
+          <p style="margin-top: 1rem;">Empowering adults through inclusive education.</p>
+        </div>
+        
+        <div>
+          <h4 class="footer__section-title">Quick Links</h4>
+          <ul class="footer__list">
+            <li class="footer__list-item"><a href="about.html" class="footer__link">About Us</a></li>
+            <li class="footer__list-item"><a href="courses.html" class="footer__link">Courses</a></li>
+            <li class="footer__list-item"><a href="impact.html" class="footer__link">Impact</a></li>
+            <li class="footer__list-item"><a href="contact.html" class="footer__link">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 class="footer__section-title">Get Involved</h4>
+          <ul class="footer__list">
+            <li class="footer__list-item"><a href="get-involved.html" class="footer__link">Volunteer</a></li>
+            <li class="footer__list-item"><a href="get-involved.html" class="footer__link">Donate</a></li>
+            <li class="footer__list-item"><a href="partnerships.html" class="footer__link">Partner with Us</a></li>
+            <li class="footer__list-item"><a href="login.html" class="footer__link">Login</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 class="footer__section-title">Contact</h4>
+          <ul class="footer__list">
+            <li class="footer__list-item">Email: info@learningforchange.org</li>
+            <li class="footer__list-item">Phone: +44 (0) 20 XXXX XXXX</li>
+            <li class="footer__list-item">Address: London, United Kingdom</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer__bottom">
+        <p>&copy; 2024 Learning for Change. All rights reserved. | <a href="#" class="footer__link">Privacy Policy</a> | <a href="#" class="footer__link">Terms of Service</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/XXXXXXXXXXX?text=Hello,%20I'd%20like%20to%20know%20more%20about%20the%20courses." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contact us on WhatsApp">
+    <span>💬</span>
+  </a>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

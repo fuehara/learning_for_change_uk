@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Learning for Change - get in touch to learn more about our courses, partnerships, or volunteer opportunities.">
+  <title>Contact Us - Learning for Change</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="icon" type="image/png" href="assets/images/logo.jpeg">
+</head>
+<body>
+  <header class="header">
+    <div class="header__container">
+      <a href="index.html" class="header__logo">
+        <img src="assets/images/logo.jpeg" alt="Learning for Change Logo" class="header__logo-img">
+      </a>
+      
+      <nav class="header__nav" aria-label="Main navigation">
+        <ul class="header__nav-list">
+          <li><a href="index.html" class="header__nav-link">Home</a></li>
+          <li><a href="about.html" class="header__nav-link">About</a></li>
+          <li><a href="courses.html" class="header__nav-link">Courses</a></li>
+          <li><a href="partnerships.html" class="header__nav-link">Partnerships</a></li>
+          <li><a href="impact.html" class="header__nav-link">Impact</a></li>
+          <li><a href="get-involved.html" class="header__nav-link">Get Involved</a></li>
+          <li><a href="contact.html" class="header__nav-link">Contact</a></li>
+        </ul>
+        
+        <div class="header__actions">
+          <a href="login.html" class="btn btn--outline-teal btn--small">Login</a>
+          <a href="courses.html" class="btn btn--primary btn--small">Start Learning</a>
+        </div>
+      </nav>
+      
+      <button class="header__mobile-toggle" aria-label="Toggle mobile menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero__content">
+          <h1 class="hero__title">Contact Us</h1>
+          <p class="hero__subtitle">We'd love to hear from you</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--white">
+      <div class="container">
+        <div class="grid grid--2">
+          <div>
+            <h2 style="margin-bottom: 1.5rem;">Get in Touch</h2>
+            <p style="font-size: 1.125rem; line-height: 1.8; margin-bottom: 2rem;">
+              Whether you're interested in our courses, want to partner with us, or have questions about volunteering, we're here to help. Fill out the form and we'll get back to you as soon as possible.
+            </p>
+            
+            <div class="card">
+              <h3 class="card__title">Contact Information</h3>
+              <div style="margin-top: 1.5rem;">
+                <p style="margin-bottom: 1rem;">
+                  <strong>📧 Email:</strong><br>
+                  <a href="mailto:info@learningforchange.org" style="color: var(--primary-teal);">info@learningforchange.org</a>
+                </p>
+                <p style="margin-bottom: 1rem;">
+                  <strong>📞 Phone:</strong><br>
+                  +44 (0) 20 XXXX XXXX
+                </p>
+                <p style="margin-bottom: 1rem;">
+                  <strong>📍 Address:</strong><br>
+                  Learning for Change<br>
+                  London, United Kingdom
+                </p>
+                <p style="margin-bottom: 1rem;">
+                  <strong>🕐 Office Hours:</strong><br>
+                  Monday - Friday: 9:00 AM - 5:00 PM<br>
+                  Saturday: 10:00 AM - 2:00 PM<br>
+                  Sunday: Closed
+                </p>
+              </div>
+            </div>
+            
+            <div class="card mt-3">
+              <h3 class="card__title">Quick Links</h3>
+              <ul style="margin-left: 1.5rem; margin-top: 1rem;">
+                <li style="margin-bottom: 0.5rem;"><a href="courses.html" style="color: var(--primary-teal);">Browse Our Courses</a></li>
+                <li style="margin-bottom: 0.5rem;"><a href="partnerships.html" style="color: var(--primary-teal);">Partnership Opportunities</a></li>
+                <li style="margin-bottom: 0.5rem;"><a href="get-involved.html" style="color: var(--primary-teal);">Volunteer With Us</a></li>
+                <li style="margin-bottom: 0.5rem;"><a href="about.html" style="color: var(--primary-teal);">About Our Organization</a></li>
+              </ul>
+            </div>
+          </div>
+          
+          <div>
+            <div class="card">
+              <h3 class="card__title">Send Us a Message</h3>
+              
+              <form class="form" id="contactForm">
+                <div class="form__group">
+                  <label for="name" class="form__label">Full Name *</label>
+                  <input type="text" id="name" name="name" class="form__input" required>
+                </div>
+                
+                <div class="form__group">
+                  <label for="email" class="form__label">Email Address *</label>
+                  <input type="email" id="email" name="email" class="form__input" required>
+                </div>
+                
+                <div class="form__group">
+                  <label for="phone" class="form__label">Phone Number</label>
+                  <input type="tel" id="phone" name="phone" class="form__input">
+                </div>
+                
+                <div class="form__group">
+                  <label for="subject" class="form__label">Subject *</label>
+                  <select id="subject" name="subject" class="form__select" required>
+                    <option value="">Please select...</option>
+                    <option value="course-inquiry">Course Inquiry</option>
+                    <option value="partnership">Partnership Opportunity</option>
+                    <option value="volunteer">Volunteer Interest</option>
+                    <option value="donation">Donation Inquiry</option>
+                    <option value="general">General Question</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                
+                <div class="form__group">
+                  <label for="message" class="form__label">Message *</label>
+                  <textarea id="message" name="message" class="form__textarea" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn--primary" style="width: 100%;">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--light">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Frequently Asked Questions</h2>
+        </div>
+        
+        <div class="grid grid--2">
+          <div class="card">
+            <h3 class="card__title">How do I enroll in a course?</h3>
+            <p class="card__description">
+              You can register your interest through our contact form or by calling us directly. We'll guide you through the enrollment process and help you choose the right course for your needs.
+            </p>
+          </div>
+          
+          <div class="card">
+            <h3 class="card__title">Are the courses free?</h3>
+            <p class="card__description">
+              Many of our courses are free or heavily subsidized for eligible learners. We also offer payment plans for fee-based courses. Contact us to discuss your situation and available options.
+            </p>
+          </div>
+          
+          <div class="card">
+            <h3 class="card__title">What are the class schedules?</h3>
+            <p class="card__description">
+              We offer flexible scheduling with morning, evening, and weekend classes to accommodate working adults. Specific schedules vary by course. Contact us for current timetables.
+            </p>
+          </div>
+          
+          <div class="card">
+            <h3 class="card__title">Do you offer online courses?</h3>
+            <p class="card__description">
+              Yes! Many of our courses are available both in-person and online. We use modern learning platforms to ensure online learners receive the same quality education as in-person students.
+            </p>
+          </div>
+          
+          <div class="card">
+            <h3 class="card__title">How can my company partner with you?</h3>
+            <p class="card__description">
+              We offer various partnership models including recruitment partnerships, customized training, and strategic collaborations. Visit our Partnerships page or contact us to discuss options.
+            </p>
+          </div>
+          
+          <div class="card">
+            <h3 class="card__title">Can I volunteer if I don't have teaching experience?</h3>
+            <p class="card__description">
+              Absolutely! We have volunteer opportunities for all skill levels, from conversation partners to administrative support. We provide training and support for all volunteers.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--white">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Visit Our Locations</h2>
+          <p class="section__subtitle">We have multiple learning centers across London</p>
+        </div>
+        
+        <div class="grid grid--3">
+          <div class="card">
+            <h3 class="card__title">Central London Campus</h3>
+            <p class="card__description">
+              <strong>Address:</strong><br>
+              123 Education Street<br>
+              London, EC1A 1BB<br>
+              United Kingdom
+            </p>
+            <p class="card__description" style="margin-top: 1rem;">
+              <strong>Courses Offered:</strong><br>
+              English & Digital Skills
+            </p>
+          </div>
+          
+          <div class="card">
+            <h3 class="card__title">East London Center</h3>
+            <p class="card__description">
+              <strong>Address:</strong><br>
+              456 Learning Avenue<br>
+              London, E1 2CD<br>
+              United Kingdom
+            </p>
+            <p class="card__description" style="margin-top: 1rem;">
+              <strong>Courses Offered:</strong><br>
+              English Language Programs
+            </p>
+          </div>
+          
+          <div class="card">
+            <h3 class="card__title">South London Hub</h3>
+            <p class="card__description">
+              <strong>Address:</strong><br>
+              789 Skills Road<br>
+              London, SW1 3EF<br>
+              United Kingdom
+            </p>
+            <p class="card__description" style="margin-top: 1rem;">
+              <strong>Courses Offered:</strong><br>
+              Digital & IT Skills
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--light">
+      <div class="container">
+        <div class="cta-banner">
+          <h2 class="cta-banner__title">Prefer to Talk?</h2>
+          <p class="cta-banner__text">Give us a call or send us a WhatsApp message</p>
+          <div class="hero__cta">
+            <a href="tel:+442012345678" class="btn btn--outline btn--large">📞 Call Us</a>
+            <a href="https://wa.me/XXXXXXXXXXX?text=Hello,%20I'd%20like%20to%20know%20more%20about%20the%20courses." class="btn btn--outline btn--large" target="_blank">💬 WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <img src="assets/images/logo.jpeg" alt="Learning for Change" class="footer__logo">
+          <p>Skills for today, opportunities for tomorrow.</p>
+          <p style="margin-top: 1rem;">Empowering adults through inclusive education.</p>
+        </div>
+        
+        <div>
+          <h4 class="footer__section-title">Quick Links</h4>
+          <ul class="footer__list">
+            <li class="footer__list-item"><a href="about.html" class="footer__link">About Us</a></li>
+            <li class="footer__list-item"><a href="courses.html" class="footer__link">Courses</a></li>
+            <li class="footer__list-item"><a href="impact.html" class="footer__link">Impact</a></li>
+            <li class="footer__list-item"><a href="contact.html" class="footer__link">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 class="footer__section-title">Get Involved</h4>
+          <ul class="footer__list">
+            <li class="footer__list-item"><a href="get-involved.html" class="footer__link">Volunteer</a></li>
+            <li class="footer__list-item"><a href="get-involved.html" class="footer__link">Donate</a></li>
+            <li class="footer__list-item"><a href="partnerships.html" class="footer__link">Partner with Us</a></li>
+            <li class="footer__list-item"><a href="login.html" class="footer__link">Login</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 class="footer__section-title">Contact</h4>
+          <ul class="footer__list">
+            <li class="footer__list-item">Email: info@learningforchange.org</li>
+            <li class="footer__list-item">Phone: +44 (0) 20 XXXX XXXX</li>
+            <li class="footer__list-item">Address: London, United Kingdom</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer__bottom">
+        <p>&copy; 2024 Learning for Change. All rights reserved. | <a href="#" class="footer__link">Privacy Policy</a> | <a href="#" class="footer__link">Terms of Service</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/XXXXXXXXXXX?text=Hello,%20I'd%20like%20to%20know%20more%20about%20the%20courses." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contact us on WhatsApp">
+    <span>💬</span>
+  </a>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
