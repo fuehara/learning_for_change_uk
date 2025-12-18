@@ -206,7 +206,7 @@ The following pages are prepared for future integration:
 
 ## 📄 License
 
-Copyright © 2024 Learning for Change. All rights reserved.
+Copyright © 2026 Learning for Change. All rights reserved.
 
 ## 📞 Support
 
