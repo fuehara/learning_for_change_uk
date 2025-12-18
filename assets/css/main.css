@@ -765,12 +765,8 @@ img {
     min-height: 500px;
   }
   
-  .hero__video {
-    display: none;
-  }
-  
   .hero__overlay {
-    background: linear-gradient(135deg, rgba(5, 171, 169, 0.95) 0%, rgba(4, 124, 122, 0.95) 100%);
+    background: linear-gradient(135deg, rgba(5, 171, 169, 0.90) 0%, rgba(4, 124, 122, 0.90) 100%);
   }
 }
 
